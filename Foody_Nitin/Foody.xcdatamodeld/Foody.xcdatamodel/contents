@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14C1514" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Calories" syncable="YES">
+        <attribute name="unit" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="value" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="Cholesterol" syncable="YES">
+        <attribute name="unit" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="value" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="Dietary_fibre" syncable="YES">
+        <attribute name="unit" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="value" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="Food" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Monounsaturated" syncable="YES">
+        <attribute name="unit" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="value" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="Polyunsaturated" syncable="YES">
+        <attribute name="unit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Potassium" syncable="YES">
+        <attribute name="unit" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="value" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="Protein" syncable="YES">
+        <attribute name="unit" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="value" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="Soduim" syncable="YES">
+        <attribute name="unit" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="value" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="Total_Carbs" syncable="YES">
+        <attribute name="unit" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="value" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="Total_fats" syncable="YES">
+        <attribute name="unit" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="value" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="Trans" syncable="YES">
+        <attribute name="unit" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="value" optional="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Soduim" positionX="-54" positionY="0" width="128" height="75"/>
+        <element name="Food" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="Polyunsaturated" positionX="-54" positionY="9" width="128" height="75"/>
+        <element name="Protein" positionX="-45" positionY="18" width="128" height="75"/>
+        <element name="Trans" positionX="-36" positionY="36" width="128" height="75"/>
+        <element name="Monounsaturated" positionX="-18" positionY="54" width="128" height="75"/>
+        <element name="Potassium" positionX="0" positionY="72" width="128" height="75"/>
+        <element name="Total_Carbs" positionX="18" positionY="90" width="128" height="75"/>
+        <element name="Dietary_fibre" positionX="36" positionY="108" width="128" height="75"/>
+        <element name="Total_fats" positionX="-9" positionY="63" width="128" height="75"/>
+        <element name="Cholesterol" positionX="0" positionY="72" width="128" height="75"/>
+        <element name="Calories" positionX="9" positionY="81" width="128" height="75"/>
+    </elements>
+</model>

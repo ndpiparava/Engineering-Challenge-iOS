@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14C1514" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Entity_Extra" representedClassName="Foody.Entity_Extra" syncable="YES">
+        <attribute name="extra_Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="relFood" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Entity_Food" inverseName="relExtra" inverseEntity="Entity_Food" syncable="YES"/>
+    </entity>
+    <entity name="Entity_Food" representedClassName="Foody.Entity_Food" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relExtra" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Entity_Extra" inverseName="relFood" inverseEntity="Entity_Extra" syncable="YES"/>
+        <relationship name="relImportant" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Entity_Important" inverseName="relFood" inverseEntity="Entity_Important" syncable="YES"/>
+    </entity>
+    <entity name="Entity_Important" representedClassName="Foody.Entity_Important" syncable="YES">
+        <attribute name="important_Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="relFood" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Entity_Food" inverseName="relImportant" inverseEntity="Entity_Food" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Entity_Extra" positionX="45" positionY="99" width="128" height="105"/>
+        <element name="Entity_Food" positionX="54" positionY="99" width="128" height="90"/>
+        <element name="Entity_Important" positionX="54" positionY="99" width="128" height="105"/>
+    </elements>
+</model>
